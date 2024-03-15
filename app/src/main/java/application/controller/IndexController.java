@@ -12,6 +12,6 @@ public class IndexController {
      @RequestParam("nome") String nome) {
         String msg = "Olá "  + nome + "!!!";
         ui.addAttribute ("message", msg); 
-        return "WEB-INF/index.jsp";
+        return "index";
     }
 }
