@@ -13,5 +13,8 @@
         <input type="number" name="numB" />
         <button type="submit">Calcular</button>
        </form>
+
+       <hr />
+       <p>${resultado}</p>
     </body>
 </html>
