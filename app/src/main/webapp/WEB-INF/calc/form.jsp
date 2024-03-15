@@ -11,6 +11,7 @@
         <input type="number" name="numA" />
         <label>Num B</label>
         <input type="number" name="numB" />
+        <button type="submit">Calcular</button>
        </form>
     </body>
 </html>
