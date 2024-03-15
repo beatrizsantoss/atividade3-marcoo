@@ -10,7 +10,7 @@ public class IndexController {
     @RequestMapping("/")
     public String index(Model ui,
      @RequestParam("nome") String nome) {
-        String msg = "Olá Beatriz!!!";
+        String msg = "Olá + nome + ";
         ui.addAttribute ("message", msg); 
         return "/index.jsp";
     }
