@@ -6,7 +6,7 @@
         <title>Calc</title>
     </head>
     <body>
-       <form action="/soma" method="post">
+       <form action="/calc" method="post">
         <label>Num A</label>
         <input type="number" name="numA" />
         <label>Num B</label>
