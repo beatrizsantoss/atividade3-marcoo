@@ -20,7 +20,7 @@ public class CalcController {
     ui.addAttribute("resultado", nA + nB);
     return "calc/form";
         } 
-
+//a
         @RequestMapping(value =  "/calc", method = RequestMethod.POST)
         public String calc(Model ui, 
         @RequestParam("numA") int nA,
@@ -40,7 +40,7 @@ public class CalcController {
                 case "divisao":
                     resultado = nA / nB;
                     break;
-                    
+
             }
             ui.addAttribute("resultado", resultado);
             return "calc/form";
