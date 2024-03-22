@@ -40,7 +40,7 @@ public class CalcController {
                 case "divisao":
                     resultado = nA / nB;
                     break;
-//a
+                    
             }
             ui.addAttribute("resultado", resultado);
             return "calc/form";
