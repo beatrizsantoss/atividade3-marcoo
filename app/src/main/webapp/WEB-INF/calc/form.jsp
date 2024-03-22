@@ -11,9 +11,15 @@
         <input type="number" name="numA" />
         <label>Num B</label>
         <input type="number" name="numB" />
+        <label>Operação</label>
+        <select name="operacao">
+            <option value="soma">Soma</option>
+            <option value="subtracao">Subtração</option>
+            <option value="multiplicacao">Multiplicação</option>
+            <option value="divisao">Divisão</option>
+        </select>
         <button type="submit">Calcular</button>
        </form>
-//oi////
        <hr />
        <p>${resultado}</p>
     </body>
